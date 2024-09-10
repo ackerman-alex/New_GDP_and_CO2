@@ -4,6 +4,8 @@ import seaborn.objects as so
 import seaborn as sns
 from matplotlib import style
 
+print("Alex")
+
 url = "https://media.githubusercontent.com/media/nickeubank/MIDS_Data/master/World_Development_Indicators/wdi_small_tidy_2015.csv"
 
 c = pd.read_csv(url)
